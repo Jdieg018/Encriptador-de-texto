@@ -1,0 +1,81 @@
+*{
+    font-family: 'Inter';font-size: 22px;
+}
+.inactive{
+    display: none;
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 5%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+ .textarea{
+    border: none;
+    margin-top: 90px;
+    text-transform: lowercase;
+    resize: none;
+ }
+ .textarea:focus{
+    outline: none;
+ }
+
+ .mensaje{
+    padding: 2px;
+    background: #D8DFE8;
+    width: 400px;
+    border-radius: 10px;
+ }
+ .muneco{
+    height: 300px;
+ }
+ .informacion{
+    font-size: 15px;
+ }
+ .error{
+    color:red
+ }
+.copiar{
+    position: absolute;
+    bottom: 70px;
+    right: 330px;
+    width: 200px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.copiar:hover{
+    border: 2px solid white;
+}
+
+.btn-encriptar{
+    background-color: 
+    #0A3871;
+    border-radius: 10px;
+    color: white;
+    width: 200px;
+    height: 45px;
+    border: none;
+}
+
+.btn-desencriptar{
+    background:#4444;
+    border-radius: 10px;
+    color: #0A3871;
+    width: 200px;
+    height: 45px;
+    border: none;
+}
+.no-mensaje{
+    padding: 50px;
+}
